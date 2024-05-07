@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Формы в JavaScript</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Валидация</h2>
+      <form id="add-form" class="major" name="major" method="get" action="#">
+        <div class="input_box">
+          <input
+            placeholder="Имя"
+            class="input"
+            type="text"
+            name="name"
+            id=""
+          />
+        </div>
+        <div class="input_box">
+          <input
+            data-required="true"
+            placeholder="Фамилия"
+            class="input"
+            type="text"
+            name="surname"
+            id=""
+          />
+        </div>
+        <div class="input_box">
+          <input
+            placeholder="Email"
+            class="input"
+            type="email"
+            name="email"
+            id=""
+          />
+        </div>
+
+        <button class="button" type="submit">Отправить</button>
+
+        <div class="about-yourself">
+          <p class="info">Расскажите о себе</p>
+          <textarea placeholder="Хобби, семья, работа..."
+            class="information"
+            name="information"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <p class="result"></p>
+          <button class="button-2" type="submit">Отправить</button>
+        </div>
+
+        <!-- 
+  <input type="submit" value="Отправить">
+
+
+   <select name="numbers">
+    <option value="1">10</option>
+    <option value="2">20</option>
+    <option value="3">30</option>
+    <option value="4">40</option>
+  </select>
+       <form name="main" action="/send-email" method="post"> 
+        <label value="Привет" for="email">Адрес электронной почты:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <button type="submit">Отправить</button>
+       </form> 
+
+   
+       <form name="nameS" action="/send-message" method="post">
+        <label  for="name">Имя:</label><br />
+        <input tabindex="2" type="text" id="name" value="Я это я" name="nameTxt" ><br />
+        <label for="message">Сообщение:</label><br>
+        <textarea value="КААААЗУС" id="messageR" name="message" rows="4" cols="50" placeholder="ляляля тополя"></textarea
+        ><br />
+        <button type="submit">Отправить</button>
+     </form> 
+
+       <form action="/add-user" method="post"> 
+        <label for="username">Имя пользователя:</label><br />
+        <input tabindex="1" type="text" id="username" name="username" /><br />
+        <label for="password">Пароль:</label><br />
+        <input type="password" id="password" name="password" /><br />
+        <button type="submit">Добавить</button>
+       </form> 
+    </div>
+
+
+    <form value="" name="buttons">
+      <label for="option1">Опция 1:</label>
+      <input checked type="radio" id="option1" name="options" value="option1">
+  
+      <label for="option2">Опция 2:</label>
+      <input type="radio" id="option2" name="options" value="option2">
+  </form>
+
+
+  <div class="main-form__item">
+    <input value="fill" type="checkbox" name="nameCheck" class="main-form__radio" id="check_1">
+    <label for="check_1" class="main-form__inline-label">Чекбокс</label>
+  </div> -->
+      </form>
+      <a
+        class="link"
+        target="_blank"
+        href="https://www.youtube.com/watch?v=dBybVmzQ-ao"
+        >Валидация формы на чистом Javascript
+      </a>
+    </div>
+    <script src="js/script(la-la-la).js"></script>
+  </body>
+</html>

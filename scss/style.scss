@@ -1,0 +1,107 @@
+/*Обнуление*/
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  padding: 30px;
+}
+
+._active {
+  background-color: #14c8ce;
+}
+
+.major {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input {
+	border-radius: 10px;
+  padding: 10px;
+}
+
+.input_box:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+
+h2 {
+  margin: 0px 0px 20px 0px;
+}
+
+.link{
+	color: #ffffff;
+}
+
+
+.button {
+	background-color: #ded70add;
+	padding: 10px;
+}
+
+.error input{
+	outline: 2px #bf0000 solid;
+    
+}
+.error-label{
+	color: red;
+	margin-bottom: 10px;
+
+}
+
+.input_box {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.about-yourself {
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  font-size: 20px;
+  margin: 10px 0px;
+
+}
+.information {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+//  border-color: 1px solid transparent;
+}
+
+.red {
+  outline: solid 2px #ff2851;
+}
+.button-2 {
+  background-color: #ded70add;
+	padding: 10px;
+}
+
+.result {
+  color: #737373;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px;
+  // position: relative;
+  // top: -30px;
+  // left: -5px;
+  // align-self: flex-end;
+}
+
+.lalala{
+  color: #000;
+}
