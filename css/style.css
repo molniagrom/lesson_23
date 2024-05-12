@@ -20,97 +20,42 @@ body {
   padding: 30px;
 }
 
-._active {
-  background-color: #14c8ce;
+.block {
+  background-color: #7a956b;
+  padding: 15px;
+  line-height: 130%;
+}
+.block__more {
+  margin: 20px 0px 0px 0px;
+  background-color: #77608d;
+  padding: 10px 15px;
+  color: #fff;
 }
 
-.major {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.list {
+  background-color: #794f45;
+  padding: 15px;
 }
-
-.input {
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.input_box:not(:last-child) {
+.list__item {
   margin: 0px 0px 20px 0px;
 }
-
-h2 {
-  margin: 0px 0px 20px 0px;
+.list__item li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.list__more {
+  margin: 20px 0px 0px 0px;
+  background-color: #77608d;
+  padding: 10px 15px;
+  color: #fff;
 }
 
-.link {
-  color: #ffffff;
-}
-
-.button {
-  background-color: rgba(222, 215, 10, 0.8666666667);
-  padding: 10px;
-}
-
-.error input {
-  outline: 2px #bf0000 solid;
-}
-
-.error-label {
-  color: red;
-  margin-bottom: 10px;
-}
-
-.input_box {
+[data-showmore-content] {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  overflow: hidden;
 }
 
-.about-yourself {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.info {
-  font-size: 20px;
-  margin: 10px 0px;
-}
-
-.information {
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.red {
-  outline: solid 2px #ff2851;
-}
-
-.button-2 {
-  background-color: rgba(222, 215, 10, 0.8666666667);
-  padding: 10px;
-}
-
-.result {
-  color: #737373;
-  font-size: 14px;
-  margin: 0px 0px 10px 0px;
-}
-
-.lalala {
-  color: #000;
+.block__quote {
+  font-size: 22px;
+  line-height: 150%;
 }

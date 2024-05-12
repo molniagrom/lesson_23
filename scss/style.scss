@@ -18,90 +18,78 @@ body {
   padding: 30px;
 }
 
-._active {
-  background-color: #14c8ce;
+// .wrapper {
+// }
+.block {
+  background-color: #7a956b;
+  padding: 15px;
+  // font-size: rem(20, 16px);
+
+  line-height: 130%;
+
+  // .block__text
+
+  &__text {
+  }
+
+  // .block__more
+
+  &__more {
+    margin: 20px 0px 0px 0px;
+
+    background-color: #77608d;
+    padding: 10px 15px;
+    color: #fff;
+  }
+}
+.list {
+  background-color: #794f45;
+  // font-size: rem(20, 16px);
+
+  padding: 15px;
+
+  // .list__item
+
+  &__item {
+  
+    margin: 0px 0px 20px 0px;
+    li {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // .list__more
+
+  &__more {
+    margin: 20px 0px 0px 0px;
+    background-color: #77608d;
+    padding: 10px 15px;
+    color: #fff;
+  }
 }
 
-.major {
+[data-showmore]{
 
-  display: flex;
-  flex-direction: column;
-
-}
-
-.input {
-	border-radius: 10px;
-  padding: 10px;
-}
-
-.input_box:not(:last-child) {
-  margin: 0px 0px 20px 0px;
-}
-
-h2 {
-  margin: 0px 0px 20px 0px;
-}
-
-.link{
-	color: #ffffff;
+} 
+[data-showmore-content] {
+  transition: height 0.3s ease 0s;
+    display: -webkit-box;
+    // -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 
-.button {
-	background-color: #ded70add;
-	padding: 10px;
-}
 
-.error input{
-	outline: 2px #bf0000 solid;
+.block {
+
+  // .block__quote
+
+  &__quote {
+    font-size: 22px;
+    line-height: 150%;
     
-}
-.error-label{
-	color: red;
-	margin-bottom: 10px;
-
-}
-
-.input_box {
-	display: flex;
-	flex-direction: column;
-}
-
-
-.about-yourself {
-  display: flex;
-  flex-direction: column;
-}
-.info {
-  font-size: 20px;
-  margin: 10px 0px;
-
-}
-.information {
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-//  border-color: 1px solid transparent;
-}
-
-.red {
-  outline: solid 2px #ff2851;
-}
-.button-2 {
-  background-color: #ded70add;
-	padding: 10px;
-}
-
-.result {
-  color: #737373;
-  font-size: 14px;
-  margin: 0px 0px 10px 0px;
-  // position: relative;
-  // top: -30px;
-  // left: -5px;
-  // align-self: flex-end;
-}
-
-.lalala{
-  color: #000;
+  }
 }
