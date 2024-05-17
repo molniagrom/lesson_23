@@ -74,13 +74,12 @@ body {
 
 } 
 [data-showmore-content] {
-  transition: height 0.3s ease 0s;
+  transition: height 0.5s ease 0s;
     display: -webkit-box;
     // -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
 
 
 .block {

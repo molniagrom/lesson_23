@@ -50,6 +50,8 @@ body {
 }
 
 [data-showmore-content] {
+  -webkit-transition: height 0.5s ease 0s;
+  transition: height 0.5s ease 0s;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
